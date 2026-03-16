@@ -132,4 +132,4 @@ app.post('/webhook', async (req, res) => {
   }
 });
 
-app.listen(process.env.PORT || 3000, () => console.log('Bot çalışıyor!'));
+app.listen(process.env.PORT || 8080, () => console.log('Bot çalışıyor!'));
